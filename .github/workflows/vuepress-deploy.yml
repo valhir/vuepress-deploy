@@ -13,6 +13,6 @@ jobs:
         ACCESS_TOKEN: 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
         TARGET_REPO: valhir/valhir.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_SCRIPT: npm && npm run docs:build
         BUILD_DIR: docs/.vuepress/dist/
         CNAME: https://docs.valhir.cn
