@@ -8,11 +8,11 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
+      uses: jenkey2011/vuepress-deploy@dev
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: valhir/valhir.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn docs:build
+        BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist/
         CNAME: https://docs.valhir.cn
