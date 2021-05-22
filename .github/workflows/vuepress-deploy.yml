@@ -9,7 +9,6 @@ jobs:
     
     - name: install
       run: | 
-        npm install
         npm install -D vuepress
         npm i vuepress-theme-antdocs
         yarn global add vuepress
