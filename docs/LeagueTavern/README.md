@@ -28,7 +28,29 @@ title: LeagueTavern帮助手册
 
 ---
 
+## ▶️开始使用
+
+### 安装
+从群内下载`LeagueTavern`安装包，双击运行`LeagueTavern Setup 1.0.6.exe`将会自动安装，片刻之后即可完成安装，安装完成后会自动启动 LeagueTavern 并在开始菜单跟桌面创建快捷方式。
+
+### 运行
+双击桌面的 <a-button type="primary">LeagueTavern</a-button> 图标即可启动，当你**运行游戏**后`LeagueTavern`将会自动识别当前区服所登录的召唤师角色
+>`LeagueTavern`与`英雄联盟`游戏没有严格的启动顺序，无论哪个先启动都不会影响使用
+
+![客户端登陆](https://z3.ax1x.com/2021/05/20/gT7cPU.md.jpg)
+
+::: warning ⚠注意
+**手动添加**功能暂不可用，点击不会有任何反应，请自行启动游戏`LeagueTavern`会自动查找召唤师。
+:::
+
+点击当前召唤师后`LeagueTavern`会进入后台运行，当你进入英雄选择时 `LeagueTavern`将会降临在你面前
+
+![英雄选择](https://z3.ax1x.com/2021/05/20/gT7qRe.jpg)
+
+---
+
 ## ♾️功能介绍
+
 ### ☑️英雄梯队
 ![英雄选择页](https://z3.ax1x.com/2021/05/20/gT4mdS.png)
 
@@ -105,27 +127,8 @@ title: LeagueTavern帮助手册
 
 ---
 
-## ▶️开始使用
-
-### 安装
-从群内下载`LeagueTavern`安装包，双击运行`LeagueTavern Setup 1.0.6.exe`将会自动安装，片刻之后即可完成安装，安装完成后会自动启动 LeagueTavern 并在开始菜单跟桌面创建快捷方式。
-### 运行
-双击桌面的 <a-button type="primary">LeagueTavern</a-button> 图标即可启动，当你**运行游戏**后`LeagueTavern`将会自动识别当前区服所登录的召唤师角色
->`LeagueTavern`与`英雄联盟`游戏没有严格的启动顺序，无论哪个先启动都不会影响使用
-
-![客户端登陆](https://z3.ax1x.com/2021/05/20/gT7cPU.md.jpg)
-
-::: warning ⚠注意
-**手动添加**功能暂不可用，点击不会有任何反应，请自行启动游戏`LeagueTavern`会自动查找召唤师。
-:::
-
-点击当前召唤师后`LeagueTavern`会进入后台运行，当你进入英雄选择时 `LeagueTavern`将会降临在你面前
-
-![英雄选择](https://z3.ax1x.com/2021/05/20/gT7qRe.jpg)
-
----
-
 ## ➕其他说明
+
 ### 排位模式
 >LeagueTavern 在排位模式中会根据你分配到的位置提供梯队禁用对位数据，如果你与其他召唤师达成一致意见交换位置可以在右上角切换分路位置。
 
