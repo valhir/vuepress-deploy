@@ -19,6 +19,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: valhir/valhir.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn docs:build
+        BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
         CNAME: https://docs.valhir.cn
