@@ -9,7 +9,7 @@ jobs:
     
     - name: install
       run: | 
-        yarn install
+        npm install
         yarn add -D vuepress
         yarn add vuepress-theme-antdocs
   
@@ -19,6 +19,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: valhir/valhir.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: vuepress build docs
+        BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
         CNAME: https://docs.valhir.cn
