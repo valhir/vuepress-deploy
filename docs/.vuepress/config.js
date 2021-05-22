@@ -8,7 +8,6 @@ module.exports = {
     },
     title: 'LeagueTavern',
     description: '使用手册',
-    dest: './dist',
     port: '80',
     head: [
         ['link', {rel: 'icon', href: 'logo.png'}]
