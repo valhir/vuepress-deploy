@@ -7,12 +7,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@dev
+    - name: Build and Deploy
+      uses: testthedocs/github-pages-deploy-action@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: valhir/valhir.github.io
-        TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/.vuepress/dist/
-        CNAME: https://docs.valhir.cn
+        BUILD_DIR: docs/.vuepress/dist/ # The folder, the action should deploy.
+        BUILD_SCRIPT: npm install && npm run-script build # The build script the action should run prior to deploying.
