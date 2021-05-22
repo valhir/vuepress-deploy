@@ -11,8 +11,6 @@ jobs:
       run: | 
         npm install -D vuepress
         npm i vuepress-theme-antdocs
-        yarn global add vuepress
-        yarn add vuepress-theme-antdocs
   
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@dev
