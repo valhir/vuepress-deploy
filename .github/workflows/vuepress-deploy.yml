@@ -12,6 +12,7 @@ jobs:
         npm install
         yarn global add vuepress
         yarn add vuepress-theme-antdocs
+        yarn docs:build
   
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
@@ -19,6 +20,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: valhir/valhir.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_SCRIPT: yarn
         BUILD_DIR: docs/.vuepress/dist
         CNAME: https://docs.valhir.cn
