@@ -43,7 +43,7 @@ title: LeagueTavern帮助手册
 **手动添加**功能暂不可用，点击不会有任何反应，请自行启动游戏`LeagueTavern`会自动查找召唤师。
 :::
 
-点击当前召唤师后`LeagueTavern`会进入后台运行，当你进入英雄选择时 `LeagueTavern`将会降临在你面前
+点击当前召唤师后`LeagueTavern`会进入后台运行，此时只需要进入英雄选择时就可以开始使用啦！
 
 ![英雄选择](https://z3.ax1x.com/2021/05/20/gT7qRe.jpg)
 
@@ -130,13 +130,13 @@ title: LeagueTavern帮助手册
 ## ➕其他说明
 
 ### 排位模式
->LeagueTavern 在排位模式中会根据你分配到的位置提供梯队禁用对位数据，如果你与其他召唤师达成一致意见交换位置可以在右上角切换分路位置。
+>`LeagueTavern` 在排位模式中会根据你分配到的位置提供梯队禁用对位数据，如果你与其他召唤师达成一致意见交换位置可以在右上角切换分路位置。
 
 ### 匹配模式（召唤师峡谷）
->LeagueTavern 将会默认选择 OP.GG 中该英雄出现率最高的分路来推荐符文装备
+>`LeagueTavern` 将会默认选择 OP.GG 中该英雄出现率最高的分路来推荐符文装备
 
 ### 极地大乱斗
->LeagueTavern 的符文和装备数据将会默认使用 [MurderBrige](https://www.murderbridge.com) 推荐，该网站具有更专业的ARAM数据统计
+>`LeagueTavern` 的符文和装备数据将会默认使用 [MurderBrige](https://www.murderbridge.com) 推荐，该网站具有更专业的ARAM数据统计
 
 
 ### 分路选择
