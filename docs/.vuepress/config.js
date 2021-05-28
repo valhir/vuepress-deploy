@@ -15,7 +15,7 @@ module.exports = {
     },
     theme: 'antdocs',
     themeConfig: {
-        logo: 'logo.png',
+        logo: '/logo.png',
         sidebar: 'auto',
         nav: require("./nav.js"),
         nextLinks: true,
